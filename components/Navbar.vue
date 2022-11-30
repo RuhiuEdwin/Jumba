@@ -28,6 +28,13 @@
           </nuxt-link>
         <div class="flex flex-col lg:flex-row gap-2">
           <nuxt-link
+            to="/about"
+            class="p-2 ml-1 pl-2 hover:bg-bg rounded-l-lg text-white w-full"
+            @click="showMenu = !showMenu"
+          >
+            About
+          </nuxt-link>
+          <nuxt-link
             to="/properties"
             class="p-2 ml-1 pl-2 hover:bg-bg rounded-l-lg text-white w-full"
             @click="showMenu = !showMenu"

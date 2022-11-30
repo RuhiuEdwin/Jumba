@@ -38,18 +38,18 @@
       </div>
       <!-- card wrapper -->
       <div class="flex justify-center flex-wrap gap-5 lg:justify-start">
-        <div v-for="property in properties" :key="property.id" >
-          <!-- event card -->
-          <PropertyCard 
-            :Name="property.name"
-            :Poster="property.image"
-            :Price="property.price"
-            :Category="property.category"
-            :Description="property.description"
-            :Location="property.location"
-            :id="property.id"
-          />
-        </div>
+            <div v-for="property in properties" :key="property.id" >
+              <!-- event card -->
+              <PropertyCard 
+                :Name="property.name"
+                :Poster="property.image"
+                :Price="property.price"
+                :Category="property.category"
+                :Description="property.description"
+                :Location="property.location"
+                :id="property.id"
+              />
+            </div>
       </div>
     </div>
   </div>

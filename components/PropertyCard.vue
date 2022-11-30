@@ -1,7 +1,7 @@
 <template>
     <!-- event card -->
   
-    <div class="flex justify-between">
+    <div class="card flex justify-between">
       <!-- event card -->
       <div class="
       relative
