@@ -22,39 +22,46 @@
           <nuxt-link
             to="/"
             class="hidden lg:block"
-            @click="showMenu = !showMenu"
+            @click="click()"
           >
               <img src="../src/logo.png" class="w-1/6" />
           </nuxt-link>
         <div class="flex flex-col lg:flex-row gap-2">
+          <div @click="showMenu = !showMenu">
           <nuxt-link
             to="/about"
             class="p-2 ml-1 pl-2 hover:bg-bg rounded-l-lg text-white w-full"
-            @click="showMenu = !showMenu"
+            @click="click()"
           >
             About
           </nuxt-link>
+          </div>
+          <div @click="showMenu = !showMenu">
           <nuxt-link
             to="/properties"
             class="p-2 ml-1 pl-2 hover:bg-bg rounded-l-lg text-white w-full"
-            @click="showMenu = !showMenu"
+            @click="click()"
           >
             Properties
           </nuxt-link>
+          </div>
+          <div @click="showMenu = !showMenu">
           <nuxt-link
             to="/services"
             class="p-2 ml-1 pl-2 hover:bg-bg rounded-l-lg text-white w-full"
-            @click="showMenu = !showMenu"
+            @click="click()"
           >
             Services
           </nuxt-link>
+          </div>
+          <div @click="showMenu = !showMenu">
           <nuxt-link
             to="/contacts"
             class="p-2 ml-1 pl-2 hover:bg-bg rounded-l-lg text-white w-full"
-            @click="showMenu = !showMenu"
           >
-            Contacts
+            Contact 
           </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -69,6 +76,11 @@
         showMenu: false,
       }
     },
+    methods:{
+      click(){
+        console.log(this.showMenu)
+      }
+    }
   }
   </script>
   

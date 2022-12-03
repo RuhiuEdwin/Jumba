@@ -399,7 +399,7 @@ import PropertyCard from '../../../components/PropertyCard.vue';
         this.share = !this.share;
       },
       whatsapp() {
-        const link = `http://mticketfe.emalify.com/${this.eventSlug}`;
+        const link = `https://urbanridgepropertieslimited.co.ke/${this.eventSlug}`;
         const message = this.eventName;
         const location = this.eventLocation;
         const date = new Date(this.startDate).toLocaleDateString("en-us", {
@@ -413,7 +413,7 @@ import PropertyCard from '../../../components/PropertyCard.vue';
         this.share = false;
       },
       facebook() {
-        const link = `http://mticketfe.emalify.com/${this.eventSlug}`;
+        const link = `https://urbanridgepropertieslimited.co.ke/${this.eventSlug}`;
         const message = this.eventName;
         const tags = this.eventTags;
         const location = this.eventLocation;
@@ -428,7 +428,7 @@ import PropertyCard from '../../../components/PropertyCard.vue';
         this.share = false;
       },
       twitter() {
-        const link = `http://mticketfe.emalify.com/${this.eventSlug}`;
+        const link = `https://urbanridgepropertieslimited.co.ke/${this.eventSlug}`;
         const message = this.eventName;
         const location = this.eventLocation;
         const date = new Date(this.startDate).toLocaleDateString("en-us", {
@@ -443,7 +443,7 @@ import PropertyCard from '../../../components/PropertyCard.vue';
         this.share = false;
       },
       instagram() {
-        const link = `http://mticketfe.emalify.com/${this.eventSlug}`;
+        const link = `https://urbanridgepropertieslimited.co.ke/${this.eventSlug}`;
         const message = this.eventName;
         const location = this.eventLocation;
         const date = new Date(this.startDate).toLocaleDateString("en-us", {

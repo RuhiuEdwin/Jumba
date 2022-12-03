@@ -2,7 +2,7 @@
   <div class="overflow-srcoll relative">
     <Navbar class="fixed left-0 top-0 nave"/>
     <Nuxt class="bg-bg min-h-screen lg:pt-14 pt-10"/>
-    <Button  class="fixed right-2 bottom-5"/>
+    <Button  class="fixed right-10 bottom-10 z-20"/>
     <Footer />
   </div>
 </template>
