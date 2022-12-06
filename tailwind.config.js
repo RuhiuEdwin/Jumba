@@ -10,7 +10,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        darkblue: '#052B3F',
+        white: '#fff',
+        offwhite: '#dadaed',
+        black: '#0a0a12',
+        darkblue: '#02033b',
+        blue: '#020254'
       },
       fontFamily: {
         Montserrat: ["Monteserrat", "sans-serif"]

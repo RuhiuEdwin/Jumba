@@ -1,16 +1,17 @@
 <template>
     <!-- event card -->
   
-    <div class="card flex justify-between">
+    <nuxt-link :to="`/properties/${id}`" class=" flex justify-between">
       <!-- event card -->
       <div class="
+      card
       relative
           flex flex-col
           gap-5
           bg-white
           rounded-md
-          drop-shadow-xl
-          hover:drop-shadow-md
+          drop
+          hover:drop
           cursor-pointer
           w-60
           events
@@ -27,16 +28,17 @@
             <!-- <div class="absolute top-0 left-0 bg-black text-white p-2 z-9">{{ Category }}</div> -->
         </div>
         <!-- event details  -->
-        <nuxt-link :to="`/properties/${id}`"  class="flex flex-col p-2 items-start">
+        <div  class="flex flex-col p-2 items-start">
           <!-- event title  -->
           <div>
             <div class="font-bold capitalize">{{Name }}</div>
-            <div class="capitalize font-light">KES {{ Price }}</div>
+            <div v-if="Price !== 0" class="capitalize font-light">KES {{ Price }}</div>
+            <div v-else class="capitalize font-light">Contact For Details</div>
             <div class="capitalize font-light">{{ Location }}</div>
           </div>
-        </nuxt-link>
+        </div>
       </div>
-    </div>
+    </nuxt-link>
   </template>
   
 <script>
@@ -123,5 +125,9 @@
     background-size: cover !important;
     background-position:top center !important;
     width: 240px !important;
+    height: 70% !important;
+  }
+  .card{
+    height: 290px !important;
   }
   </style>

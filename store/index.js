@@ -6,19 +6,19 @@ const state = () => ({
         id: 1,
         poster: 'https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80',
         name: "Land Sale & Leasing",
-        description: 'We will focus on facilities management function and co-ordination, and you will focus on your business.'
+        description: 'Our land portfolio kis diverse, we sell prime commercial plot, Residential plot, agricultural land all in urban cities andupcounty. Our minimum size being 1/8 Acre scaling up to 400 Acres . We take pride having the best and most flexible prices in the market'
       },
       {
         id: 2,
         name: "Property Management",
         poster: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
-        description: 'We will focus on facilities management function and co-ordination, and you will focus on your business.'
+        description: 'We manage estates, apartments, flats etc. Our experienced team offer professional and top notch service so ypu can focus on you and other busineses. We collect rent revenue, source tenants, provide record keeping prepare and facilitate tenancy agreements.'
       },
       {
         id: 3,
         poster: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1546&q=80',
         name: "Property Valuation",
-        description: 'We will focus on facilities management function and co-ordination, and you will focus on your business.'
+        description: 'We team up with government registered propery valuers, planners and land surveyors ensuring we give our clients accurate and best value for their property.'
       },
       {
         id: 4,
@@ -30,7 +30,7 @@ const state = () => ({
         id: 5,
         poster: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2062&q=80',
         name: "Construction & Development",
-        description: 'We are committed to walking the journey of owning property together with our clients living in the diaspora in the most professional, personal and flexible way.'
+        description: 'We are a one stop for construction and development. We provide both architectural and structural plans suitable to our client needs. For reidential houses, massionetes, bungalows, apartments and offices, we source construction materials and give expert builders who deliver timely and quality'
       },
     ],
     testimonials: [

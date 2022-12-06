@@ -15,7 +15,7 @@
           search
           lg:border-1
           lg:border-black
-          lg:drop-shadow-lg
+          lg:drop
         ">
         <div class="flex lg:w-1/2 flex-col items-start w-5/6 lg:border-r lg:border-r-blackish">
             <div class="text-blackish font-bold">Property Size</div>

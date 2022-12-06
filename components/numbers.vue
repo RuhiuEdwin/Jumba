@@ -1,7 +1,7 @@
 <template>
-    <!-- <div class="bg-black pt-20 pb-20"> -->
+    <!-- <div class="bg-darkblue pt-20 pb-20"> -->
         <!-- numbers wrapper  -->
-        <div class="bg-black px-20 py-10 drop-shadow-lg mb-10 max-w-screen-lg m-auto flex flex-col lg:flex-row justify-between gap-5 text-white rounded-2xl">
+        <div class="bg-darkblue px-20 py-10 drop mb-10 max-w-screen-lg m-auto flex flex-col lg:flex-row justify-between gap-5 text-white rounded-2xl">
             <!-- active events  -->
             <div class="lg:w-1/3 flex flex-col items-center lg:gap-5 lg:border-r lg:border-r-blackish">
                 <div class="font-bold text-3xl">

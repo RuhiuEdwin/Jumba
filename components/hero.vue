@@ -5,10 +5,10 @@
         :style="{
           background: `linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
     ),url(${property.image})`,
-        }" >
+        }" class="main">
         <div class="text-white relative max-w-screen-lg m-auto">
           <div class="w-full lg:w-3/5 absolute -bottom-72 p-10 lg:p-0">
             <div class="font-black text-2xl">{{ property.name }}</div>
@@ -28,16 +28,26 @@
                     d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                   ></path>
                 </svg>
-                <div class="text-xs font-light flex items-center gap-1">
+                <div v-if="property.price !== 0" class="text-xs font-light flex items-center gap-1">
                   <div class="font-light text-sm">
                     {{
                       property.size
                     }}
                   </div>
                   at
-                  <div class="font-light text-sm">
+                  <div  class="font-light text-sm">
                     KES {{property.price
                     }}
+                  </div>
+                </div>
+                <div v-else class="text-xs font-light flex items-center gap-1">
+                  <div class="font-light text-sm">
+                    {{
+                      property.size
+                    }}
+                  </div>
+                  <div   class="font-light text-sm">
+                    Contact For Details
                   </div>
                 </div>
               </div>
@@ -70,7 +80,7 @@
     </el-carousel-item>
   </el-carousel>
     <div class="relative max-w-screen-lg m-auto">
-      <div class="absolute bottom-0 lg:bottom-36 z-10">
+      <div class="absolute bottom-5 lg:bottom-36 z-10">
         <Search />
       </div>
     </div>
@@ -110,7 +120,7 @@ export default {
     background-color: #d3dce6;
   }
 .hero{
-  height: 85vh;
+  height: 75vh;
   max-height: 800px ;
   overflow: none;
 }
@@ -129,7 +139,7 @@ export default {
 } */
 
 .el-carousel__container {
-  height: 93% !important;
+  height: 100% !important;
   overflow: none;
 }
 .el-carousel__indicators--horizontal {
@@ -141,4 +151,9 @@ export default {
   border-radius: 50%;
   background-color: #000 !important;
 } 
+.main {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position:center center !important;
+}
 </style>

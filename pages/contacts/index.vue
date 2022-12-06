@@ -15,35 +15,35 @@
             <h2 class="font-bold text-lg">CONTACT FORM</h2>
             <form class="flex flex-col gap-2">
                 <div class="flex flex-col gap-2 lg:flex-row">
-                    <div class="user-box w-full lg:w-1/2 drop-shadow-lg border-2 rounded-lg pl-2">
+                    <div class="user-box w-full lg:w-1/2 drop border-2 rounded-lg pl-2">
                         <input type="text" name="" required>
                         <label>FIRST NAME</label>
                     </div>
-                    <div class="user-box w-full lg:w-1/2 drop-shadow-lg border-2 rounded-lg pl-2">
+                    <div class="user-box w-full lg:w-1/2 drop border-2 rounded-lg pl-2">
                         <input type="text" name="" required>
                         <label>LAST NAME</label>
                     </div>
                 </div>
                 <div class="flex flex-col gap-2 lg:flex-row">
-                    <div class="user-box w-full lg:w-1/2 drop-shadow-lg border-2 rounded-lg pl-2">
+                    <div class="user-box w-full lg:w-1/2 drop border-2 rounded-lg pl-2">
                         <input type="email" name="" required>
                         <label>EMAIL ADDRESS</label>
                     </div>
-                    <div class="user-box w-full lg:w-1/2 drop-shadow-lg border-2 rounded-lg pl-2">
+                    <div class="user-box w-full lg:w-1/2 drop border-2 rounded-lg pl-2">
                         <input type="number" name="" required>
                         <label>PHONE NUMBER</label>
                     </div>
                 </div>
-                    <div class="w-full lg:w-full drop-shadow-lg border-2 rounded-lg pl-2">
+                    <div class="w-full lg:w-full drop border-2 rounded-lg pl-2">
                         <textarea required rows="5" class="w-full bg-transparent" placeholder="Your Message"> </textarea>
                     </div>
-                <button class="w-full lg:w-1/3 px-5 py-2 bg-black border border-black text-white drop-shadow-lg rounded-lg self-center hover:drop-shadow-2xl hover:bg-white hover:text-black ease-in-out duration-300">
+                <button class="w-full lg:w-1/3 px-5 py-2 bg-darkblue border border-black text-white drop rounded-lg self-center hover:drop hover:bg-white hover:text-black ease-in-out duration-300">
                     Submit
                 </button>
             </form>
         </div>
         <div class="flex flex-col lg:flex-row gap-2 w-11/12 max-w-screen-lg lg:flex-row m-auto ">
-            <a  href="tel:254786916498" class="bg-white p-5 w-full py-10 text-center drop-shadow-xl hover:drop-shadow-2xl flex flex-col items-center justify-center rounded-2xl">
+            <a  href="tel:254786916498" class="bg-white p-5 w-full py-10 text-center drop hover:drop flex flex-col items-center justify-center rounded-2xl">
                 <div>
                     Call Us
                 </div>
@@ -51,7 +51,7 @@
                     +254-786-916-498
                 </div>
             </a>
-            <a  href="mailto:info@urbanridgeproperties.co.ke" class="bg-white p-5 w-full py-10 text-center drop-shadow-xl hover:drop-shadow-2xl flex flex-col items-center justify-center rounded-2xl">
+            <a  href="mailto:info@urbanridgeproperties.co.ke" class="bg-white p-5 w-full py-10 text-center drop hover:drop flex flex-col items-center justify-center rounded-2xl">
                 <div>
                     Email Us
                 </div>

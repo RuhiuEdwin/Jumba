@@ -1,5 +1,5 @@
 <template lang="">
-  <footer class="p-4 bg-black sm:p-6 dark:bg-black">
+  <footer class="p-4 bg-darkblue sm:p-6 dark:bg-darkblue">
     <div class="pl-5 pr-5 pt-16 pb-5 max-w-screen-lg m-auto">
       <div class="md:flex gap-2 md:justify-between mb-10 pb-10 text-white">
         <div class="mb-6 md:mb-0 flex flex-col items-start">
@@ -62,6 +62,7 @@
             <li class="">Land Leasing</li>
             <li class="">Property Management</li>
             <li>Property Valuation</li>
+            <li>Building & Construction</li>
           </ul>
         </div>
         <div class="md:mb-0">

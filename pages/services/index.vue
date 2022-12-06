@@ -1,9 +1,9 @@
 <template>
     <div class="mb-10">
-      <div class="p-10 h-96 w-screen relative sbg">
+      <div class="p-10 h-60 w-screen relative sbg">
           <h1 class="font-bold text-2xl text-center text-white uppercase">Our Services</h1>
         <div class="text-white text-center font-light">
-            We offer a variety of services, take a look at our services below.
+            We offer a variety of real estate services, take a look at our services below.
         </div>
       </div>
       <!-- featured events wrapper  -->

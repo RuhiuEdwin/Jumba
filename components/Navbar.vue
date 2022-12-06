@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen z-9999">
     <div
-      class="flex items-center bg-black text-white justify-between lg:hidden w-full px-5"
+      class="flex items-center bg-darkblue text-white justify-between lg:hidden w-full px-5"
     >
       <nuxt-link
         to="/"
@@ -16,7 +16,7 @@
     </div>
     <div
       :class="showMenu ? 'flex' : 'hidden'"
-      class="pl-5 pt-10 pb-10 lg:p-0 bg-black w-full items-center lg:flex flex-col justify-between h-screen absolute top-10 z-20 lg:top-0 lg:h-16"
+      class="pl-5 pt-10 pb-10 lg:p-0 bg-darkblue w-full items-center lg:flex flex-col justify-between h-screen absolute top-10 z-20 lg:top-0 lg:h-16"
     >
       <div class="flex flex-col lg:flex-row lg:items-center gap-20">
           <nuxt-link

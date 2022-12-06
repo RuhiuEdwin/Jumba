@@ -13,15 +13,15 @@
         rgba(0, 0, 0, 0.8)
       ),url(${propertyData.image}`,
         }"
-        class="detail-hero flex align-center justify-center pt-40"
+        class="detail-hero flex align-center justify-center pt-20 lg:pt-40"
       >
-      <h1 class="font-bold text-2xl uppercase text-white">{{ propertyData.name }}</h1>
+      <h1 class="font-bold text-2xl text-center uppercase text-white">{{ propertyData.name }}</h1>
     </div>
       <!-- event details  -->
   
       <div
         v-if="propertyData"
-        class="flex flex-col lg:flex-row max-w-screen-lg m-auto -mt-80"
+        class="flex flex-col lg:flex-row max-w-screen-lg m-auto -mt-80 drop"
       >
         <div class="bg-white flex-initial w-11/12 mx-auto lg:w-2/3">
           <!-- event image  -->
