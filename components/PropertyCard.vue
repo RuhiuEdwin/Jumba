@@ -18,7 +18,7 @@
         ">
         <!-- event header -->
         <!-- event image  -->
-        <div class="relative w-full h-40  popular" :style="{
+        <div class="relative w-full h-32  popular" :style="{
           background: `linear-gradient(
         to right,
         rgba(0, 0, 0, 0.2),
@@ -28,7 +28,7 @@
             <!-- <div class="absolute top-0 left-0 bg-black text-white p-2 z-9">{{ Category }}</div> -->
         </div>
         <!-- event details  -->
-        <div  class="flex flex-col p-2 items-start">
+        <div  class="flex flex-col p-2 items-start h-32">
           <!-- event title  -->
           <div>
             <div class="font-bold capitalize">{{Name }}</div>
@@ -125,9 +125,5 @@
     background-size: cover !important;
     background-position:top center !important;
     width: 240px !important;
-    height: 70% !important;
-  }
-  .card{
-    height: 290px !important;
   }
   </style>

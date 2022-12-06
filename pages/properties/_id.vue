@@ -25,11 +25,22 @@
       >
         <div class="bg-white flex-initial w-11/12 mx-auto lg:w-2/3">
           <!-- event image  -->
-          <div
+          <!-- <div
             class="detail"
             :style="{ background: `url(${propertyData.image}` }"
           >
-          </div>
+          </div> -->
+          <el-carousel trigger="click"  class="detail">
+            <el-carousel-item v-for="property in propertyData.images" :key="property"
+                :style="{
+                  background: `linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.3),
+              rgba(0, 0, 0, 0.3)
+            ),url(${property.image})`,
+                }" class="main">
+            </el-carousel-item>
+          </el-carousel>
           <!-- event details  -->
         </div>
         <!-- palnning and logistics  -->
@@ -92,11 +103,6 @@
       class="flex flex-col lg:flex-row max-w-screen-lg m-auto">
         <div id="location" style="height: 500px"></div>
       </div>
-      <el-carousel :interval="5000" arrow="always">
-        <el-carousel-item v-for="item in 4" :key="item">
-          <h3>{{ item }}</h3>
-        </el-carousel-item>
-      </el-carousel>
       <div class="max-w-screen-lg m-auto mt-10 flex flex-col gap-3 p-2 lg:p-0">
         <div class="font-bold text-xl flex gap-3 items-center">
           Other Properties You May Like
