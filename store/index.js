@@ -6,13 +6,13 @@ const state = () => ({
         id: 1,
         poster: 'https://images.unsplash.com/photo-1629016943072-0bf0ce4e2608?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80',
         name: "Land Sale & Leasing",
-        description: 'Our land portfolio kis diverse, we sell prime commercial plot, Residential plot, agricultural land all in urban cities andupcounty. Our minimum size being 1/8 Acre scaling up to 400 Acres . We take pride having the best and most flexible prices in the market'
+        description: 'Our land portfolio is diverse, we sell prime commercial plot, Residential plot, agricultural land all in urban cities andupcounty. Our minimum size being 1/8 Acre scaling up to 400 Acres . We take pride having the best and most flexible prices in the market'
       },
       {
         id: 2,
         name: "Property Management",
         poster: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
-        description: 'We manage estates, apartments, flats etc. Our experienced team offer professional and top notch service so ypu can focus on you and other busineses. We collect rent revenue, source tenants, provide record keeping prepare and facilitate tenancy agreements.'
+        description: 'We manage estates, apartments, flats etc. Our experienced team offer professional and top notch service so you can focus on you and other busineses. We collect rent revenue, source tenants, provide record keeping prepare and facilitate tenancy agreements.'
       },
       {
         id: 3,
